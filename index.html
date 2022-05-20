@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Modal Work</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Abiodun Oke">
+        
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+        <script src="js/scripts.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Display Images in Modals</h1>
+            <h2>Click on  a Button</h2>
+        </header>
+        <main class="outer-container">
+            
+            <div class="card-container">
+                <div class="card shadow">
+                    <img class="img-thumb shadow" src="images/evan-krause-thumb.jpg">
+                    <p>Card 1</p>
+                    <button class="open-modal shadow" value="0">Open</button>
+                </div>
+                
+                <div class="card shadow">
+                    <img class="img-thumb shadow" src="images/dynamic-wang-thumb.jpg">
+                    <p>Card 2</p>
+                    <button class="open-modal shadow" value="1">Open</button>
+                </div>
+
+                <div class="card shadow">
+                    <img class="img-thumb shadow" src="images/florian-wehde-thumb.jpg">
+                    <p>Card 3</p>
+                    <button class="open-modal shadow" value="2">Open</button>
+                </div>
+                
+                
+            </div>
+        </main>
+        <div id="overlay"></div>
+    </body>
+    </html>
